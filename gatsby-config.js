@@ -3,6 +3,7 @@ const flattenMenu = require('@gatsbystorefront/gatsby-theme-storefront-shopify/s
 
 module.exports = {
   plugins: [
+    
     {
       resolve: '@gatsbystorefront/gatsby-theme-storefront-shopify',
       options: {
@@ -14,6 +15,7 @@ module.exports = {
         imageQuality: '95',
       },
     },
+
   ],
   siteMetadata: {
     siteUrl: 'https://demo.gatsbystorefront.com',
